@@ -23,4 +23,6 @@ public class RewardValue {
         return mileValue;
     }
 
+
+
 }
