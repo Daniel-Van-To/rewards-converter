@@ -10,13 +10,13 @@ public class RewardValue {
 
     }
 
-    public RewardValue(float miles) {
+    public RewardValue(int miles) {
         mileValue = miles;
         cashValue = 0;
     }
 
-    private double getCashValue() {
-        return cashValue * mileConversionRate;
+    public double getCashValue() {
+        return cashValue;
     }
 
     public double getMilesValue() {
