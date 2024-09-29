@@ -12,7 +12,7 @@ public class RewardValue {
 
     public RewardValue(int miles) {
         mileValue = miles;
-        cashValue = 0;
+        cashValue = miles / mileConversionRate;
     }
 
     public double getCashValue() {
